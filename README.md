@@ -14,10 +14,10 @@
  - [cd](#cd)
  - [mv](#mv)
  - [git init](#git-init)
+ - [git add](#git-add)
  - [git clone](#git-clone)
  - [git commit](#git-commit)
  - [git push](#git-push)
- - [chmod](#chmod)
  - [code .](#code)
 
 
@@ -29,9 +29,50 @@ Example usage =>
 
 > mkdir test
 
+This will create a test folder
 
+## cd
+> cd test
 
+This will Change the Directory
 
+## mv
+> mv test test1
 
+With mv we can rename or move files into a new folder.
+
+It consists of mv -source -destination  => if the destination is not created it will renamte the current folder
+
+## git init
+
+> git init
+
+This will init an .git file
+
+## git add
+
+> git add .
+
+This will add your changes
+
+## git clone
+
+> git clone git@github.com:kedmenecr/macOS-starter-readme.git
+
+This will clone the current project from the destination, if we want we can add a dot (.) at the end so it will clone it in the current folder
+
+## git commit
+
+> git commit -m "Commit message"
+
+It consist of the command commit with a parametar -m which means the message, and under string goes the commit message
+
+> git commit -m "Init commit."
+
+## git push
+
+> git push
+
+It will do a push to the repo
 
 
