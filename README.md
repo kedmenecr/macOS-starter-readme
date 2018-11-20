@@ -18,7 +18,7 @@
  - [git commit](#git-commit)
  - [git push](#git-push)
  - [chmod](#chmod)
- - [code .](#chmod
+ - [code .](#code)
 
 
 ## mkdir
