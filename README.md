@@ -13,6 +13,8 @@
  - [mkdir](#mkdir)
  - [cd](#cd)
  - [mv](#mv)
+ - [ls](#ls)
+ - [touch](#touch)
  - [git init](#git-init)
  - [git add](#git-add)
  - [git clone](#git-clone)
@@ -42,6 +44,23 @@ This will Change the Directory
 With mv we can rename or move files into a new folder.
 
 It consists of mv -source -destination  => if the destination is not created it will renamte the current folder
+
+## ls
+
+> ls
+
+It returns infomation about the files in the directory
+
+> ls -la
+
+It returns all infomation about the files in the directory
+
+
+## touch
+
+> touch index.js
+
+It creates a file without editing it
 
 ## git init
 
